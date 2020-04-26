@@ -43,7 +43,7 @@ namespace AKQATest.Controllers
             using (var client = new HttpClient())
             {
                 //Passing service base url  
-             client.BaseAddress = new Uri("https://localhost:44387/");
+             client.BaseAddress = new Uri("http://localhost:53332/");
 
             client.DefaultRequestHeaders.Clear();
             //Define request data format  
